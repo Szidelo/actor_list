@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<script src="jquery-3.6.3.min.js"></script>
+		<script src="app.js"></script>
+		<title>Tables</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<div class="title">
+					<h1>
+						<span class="styledLetter">T</span>he
+						<span class="styledLetter">L</span>ast
+						<span class="styledLetter">O</span>f
+						<span class="styledLetter">U</span>s
+					</h1>
+					
+				</div>
+				<div class="info">
+					<img
+						id="showImg"
+						src="https://static.hbo.com/2022-12/the-anarchists-s01-ka-1920.jpg"
+						alt=""
+					/>
+					
+				</div>
+			</header>
+
+			<div id="show-crew-button-div">
+				<button id="show-crew-member">Show Cast</button>
+			</div>
+			<div id="table-wrap">
+				<table id="staff-list" style="display: none;">
+					<thead>
+						<td>ID</td>
+						<td>Character Name</td>
+						<td>Actor Name</td>
+						<td>Year of Birth</td>
+						<td>Picture</td>
+						<td>Action</td>
+					</thead>
+
+					<tbody></tbody>
+				</table>
+			</div>
+
+			<div id="button-div">
+				<button id="add-crew-member" style="display: none;">Add crew member</button>
+			</div>
+
+			<div id="form-div">
+				<form action="" id="crew-form" style="display: none">
+					<p class="inputs">
+						<label for="character-name">Character name</label>
+						<input
+							type="name"
+							name="character-name"
+							id="character-name"
+							placeholder="Enter movie character name!"
+							required
+						/>
+					</p>
+					<p class="inputs">
+						<label for="actor-name">Actor name</label>
+						<input
+							type="name"
+							name="actor-name"
+							id="actor-name"
+							placeholder="Enter movie actor/actress name!"
+							required
+						/>
+					</p>
+					<p class="inputs">
+						<label for="year-of-birth">Year of Birth</label>
+						<input
+							type="number"
+							name="year-of-birth"
+							id="year-of-birth"
+							placeholder="Enter movie actor/actress YOB!"
+							required
+						/>
+					</p>
+					<p class="inputs">
+						<label for="picture">Picture</label>
+						<input
+							type="text"
+							name="picture"
+							id="picture"
+							placeholder="Picture URL!"
+						/>
+					</p>
+					<div id="save-button-div">
+						<button id="save-crew-member">Save</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

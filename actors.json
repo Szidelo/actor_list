@@ -1,0 +1,64 @@
+[
+	{
+		"id": 1,
+		"actorName": "Pedro Pascal",
+		"characterName": "Joel Miller",
+        "yearOfBirth": "1970",
+		"pictureURL": "https://m.media-amazon.com/images/M/MV5BMGNlYTVlYTMtMjRhMC00YjY5LTkwMzMtZDE4MWQzMzgwYmUzXkEyXkFqcGdeQXVyMjI0OTExNzk@._V1_UY44_CR2,0,32,44_AL_.jpg"
+	},
+	{
+		"id": 2,
+		"actorName": "Bella Ramsey",
+		"characterName": "Ellie Williams",
+		"pictureURL": "https://m.media-amazon.com/images/M/MV5BMWJkZWEyMWYtYWI1MS00ZTY0LTg2MTAtYjUzMWIwZDhjNmViXkEyXkFqcGdeQXVyNzI5MjUxNjE@._V1_UY44_CR1,0,32,44_AL_.jpg"
+	},
+	{
+		"id": 3,
+		"actorName": "Gabriel Luna",
+		"characterName": "Tommy Miller",
+		"pictureURL": "https://m.media-amazon.com/images/M/MV5BOWRiYTc4ZmYtYjgyYi00MzczLTg2MGEtMzIwZTkyZDM4NmE1XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_UY44_CR17,0,32,44_AL_.jpg"
+	},
+	{
+		"id": 4,
+		"actorName": "Ana Torv",
+		"characterName": "Theresa 'Tess' Servopoulus",
+        "yearOfBirth": "1989",
+		"pictureURL": "https://m.media-amazon.com/images/M/MV5BMzQ0NDg0MjQ3NV5BMl5BanBnXkFtZTgwOTI5OTAwODE@._V1_UY44_CR0,0,32,44_AL_.jpg"
+	},
+	{
+		"id": 5,
+		"actorName": "Merle Dandridge",
+		"characterName": "Marlene",
+		"pictureURL": "https://m.media-amazon.com/images/M/MV5BODE5YjA2NmMtYmE4Yy00NzYzLWE3MjItNmVlODVmMDdiMDZkXkEyXkFqcGdeQXVyMzg1MDA0OQ@@._V1_UY44_CR0,0,32,44_AL_.jpg"
+	},
+	{
+		"id": 6,
+		"actorName": "Lamar Johnson",
+		"characterName": "Henry",
+		"pictureURL": "https://m.media-amazon.com/images/M/MV5BYjJkZDcwZjgtMjM0OC00OWE5LWFiZDItNzVlNTE2Y2Q3NDJkXkEyXkFqcGdeQXVyMzk0MzE1MjI@._V1_UY44_CR0,0,32,44_AL_.jpg"
+	},
+	{
+		"id": 7,
+		"actorName": "Melanie Lynskey",
+		"characterName": "Kathleen",
+		"pictureURL": "https://m.media-amazon.com/images/M/MV5BMjIzNDg5NTg4Nl5BMl5BanBnXkFtZTcwMTU3NjgyMw@@._V1_UX32_CR0,0,32,44_AL_.jpg"
+	},
+	{
+		"id": 8,
+		"actorName": "Keivonn Woodard",
+		"characterName": "Sam",
+		"pictureURL": "https://m.media-amazon.com/images/M/MV5BMjhkZTFlOTItOTFjNy00MGQzLWFlMTMtN2UwMDMzNGFkNWI5XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_UY44_CR17,0,32,44_AL_.jpg"
+	},
+	{
+		"id": 9,
+		"actorName": "Jeffrey Pierce",
+		"characterName": "Perry",
+		"pictureURL": "https://m.media-amazon.com/images/M/MV5BYzhkMDJiOGItYTI3OS00YWE3LTg1MGYtYjI5OGM4ODFlOWVlXkEyXkFqcGdeQXVyNDg4NjUyOQ@@._V1_UY44_CR1,0,32,44_AL_.jpg"
+	},
+	{
+		"id": 10,
+		"actorName": "John Getz",
+		"characterName": "Edelstein",
+		"pictureURL": "https://m.media-amazon.com/images/M/MV5BMjAwNDcxODcwMF5BMl5BanBnXkFtZTcwMjQ2MzMzMQ@@._V1_UY44_CR1,0,32,44_AL_.jpg"
+	}
+]
