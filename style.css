@@ -6,6 +6,7 @@
 
 body {
 	background-color: #ebebeb;
+	/* overflow: hidden; */
 }
 
 .wrapper {
@@ -41,7 +42,8 @@ h1 {
 }
 
 #showImg {
-	width: 400px;
+	width: auto;
+	max-width: 800px;
 	height: auto;
 	border-radius: 1%;
 	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
@@ -56,12 +58,14 @@ h1 {
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
+	overflow-x: scroll;
 }
 
 table,
 thead,
 td {
 	padding: 5px;
+
 }
 
 tr:nth-child(even) {
@@ -190,4 +194,25 @@ input {
 	font-weight: 800;
 	font-size: 1.1em;
 	cursor: pointer;
+}
+
+/* ================== MEDIA QUERIES TABLET ================== */
+@media screen and (max-width: 1030px) {
+	#showImg {
+		width: 400px;
+		max-width: 400px;
+	}
+}
+
+/* ================== MEDIA QUERIES MOBILE ================== */
+@media screen and (max-width: 600px) {
+    #showImg {
+		width: 300px;
+		max-width: 300px;
+	}
+
+	#table-wrap {
+		display: block;
+		overflow-x: scroll;
+	}
 }
